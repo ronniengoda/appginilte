@@ -54,6 +54,14 @@ if ($group !== "Admins") {
                         </ul>
                         <div class="tab-content" id="custom-content-below-tabContent">
                             <div class="tab-pane fade show active" id="custom-content-below-home" role="tabpanel" aria-labelledby="custom-content-below-home-tab">
+                                <br>
+                                <!-- Show brief explanation details -->
+                                <div class="callout callout-info">
+                                    <p>Use this section to customize your table groups. You can specifiy the <B>Icon</B> of the table group, to be displayed on the side navigation menu.</p>
+                                    <p><b>Home Page Display:</b> This specifies how you want the groups to be displayed on the home page. You can select Collapsible Card (You can toggle collapse the groups) or Default (Groups are not collapsible).</p>
+                                    <p><b>Card Color:</b> If you selected Callaspsibe card on the home page display, you will specify the card color here from the list of options provided</p>
+                                </div>
+                                <!-- explanation -->
                                 <form action="" method="POST">
                                     <?php
                                     $groups = get_table_groups();
@@ -106,12 +114,22 @@ if ($group !== "Admins") {
                                         }
                                     }
                                     ?>
-                                    <br><button type="submit" class="btn btn-primary" name="tblgrps">Save</button>
+                                    <br><button type="submit" class="btn btn-primary" name="tblgrps">Save Changes</button>
                                 </form>
 
 
                             </div>
                             <div class="tab-pane fade" id="custom-content-below-profile" role="tabpanel" aria-labelledby="custom-content-below-profile-tab">
+                                <br>
+                                <!-- Show brief explanation details -->
+                                <div class="callout callout-info">
+                                    <p>Use this section to customize your tables: cards/menus. You can specifiy the <B>Card Color</B> of the table card, to be displayed on the home page.</p>
+                                    <p><b>Card Icon:</b> Select on the list which icon your table card will use: Either Default Appgini Icon or Font Awesome Icon.</p>
+                                    <p><b>Hide In Home Page:</b> You can specify here user group names(separated by a comma if more than one). This groups will not be able to see the table card on the home page</p>
+                                    <p><b>Hide In Nav Menu:</b> You can specify here user group names(separated by a comma if more than one). This groups will not be able to see the table menu on the side navigation menu</p>
+                                    <p><b>Font Awesome Icon:</b> If you specified the card icon as Font Awesome Icon you will provide there the icon name eg: fa fa-user</p>
+                                </div>
+                                <!-- explanation -->
                                 <form action="" method="POST">
                                     <?php
                                     $tjson = file_get_contents('appginilte/tables_config.json', true);
@@ -177,7 +195,7 @@ if ($group !== "Admins") {
                                         }
                                     }
                                     ?>
-                                    <br><button type="submit" class="btn btn-success" name="tbls">Save</button>
+                                    <br><button type="submit" class="btn btn-success" name="tbls">Save Changes</button>
                                 </form>
 
                             </div>
@@ -197,7 +215,7 @@ if (isset($_POST['tblgrps'])) {
     $encode = json_encode($_POST);
     //write to appginilte/groups_config.json
     file_put_contents("appginilte/groups_config.json", $encode);
-    echo '<script>alert("Table Group Icons Saved Successfully")</script>';
+    echo '<script>alert("Table Group Changes Saved Successfully")</script>';
 }
 ?>
 <?php
@@ -206,7 +224,7 @@ if (isset($_POST['tbls'])) {
     $jenc = json_encode($_POST);
     //write to appginilte/tables_config.json
     file_put_contents("appginilte/tables_config.json", $jenc);
-    echo '<script>alert("Tables Modifications Saved Successfully")</script>';
+    echo '<script>alert("Tables Changes Saved Successfully")</script>';
 }
 ?>
 <?php include 'appginilte_footer.php'; ?>
