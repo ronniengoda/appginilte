@@ -2,8 +2,6 @@
 
 ![Homepage](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6PSZYJSQJSCOTF774YVJ2WZQ "Homepage")
 
- <img src="https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png">
-
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
 
