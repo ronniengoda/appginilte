@@ -24,11 +24,11 @@ From the settings page you will get simple but straight foward instructions on h
 **NB: If you are on your localhost environment and you re generate your Appgini application, the AppginiLTE UI will be temporarirly removed, to restore it and apply the changes in your generated Appgini application, simply repeat point two of our installation process.**
 
 ## Adding Your Own Custom Code To The Dashboard
-You may want to add some other custom elements to your dashboard homepage like charts, widgets, etc. These do not come by default and you will have to write your own code and logic. However we have made a provision for you to add your code easily. 
+You may want to add some other custom elements to your dashboard homepage like charts,cards widgets,tables and everything in between . These do not come by default and you will have to write your own code and logic. However we have made a provision for you to add your code easily. 
 
-To add code on the dashboard homepage above the table cards or home links, simply navigate to the folder called **appginilte** and find a file named **above_homelinks.php** This is where you will add all your logic and code that will display above the homepage table cards.
+To add code on the dashboard homepage above the table cards or home links, simply navigate to the folder called **appginilte** and find a folder named **views** This is where you will find all group files to add all your logic and code that will display above the homepage table cards. Each file represents a group eg Admins_Top.php
 
-To add code on the dashboard homepage below the table cards or home links, simply navigate to the folder called **appginilte** and find a file named **below_homelinks.php** This is where you will add all your logic and code that will display below the homepage table cards.
+To add code on the dashboard homepage below the table cards or home links, simply navigate to the folder called **appginilte** and find a folder named **views** This is where you will add all group files to add your logic and code that will display below the homepage table cards. Each file represents a group eg Admins_Bottom.php
 
 For code and further elements regarding this template you can simply reffer to or downlaod the [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io/ "AdminLTE Bootstrap Admin Dashboard Template")
 

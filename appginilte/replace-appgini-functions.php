@@ -14,7 +14,7 @@ $mod_file = "{$hooks_dir}/mod.htmlUserBar.php";
 // Step 3: Specify the name of the function we want to overwrite
 $func_name = 'htmlUserBar';
 
-echo "{$func_name}: " . replace_function($appgini_file, $func_name, $mod_file).'<br>' .replaceIndex();
+echo "{$func_name}: " . replace_function($appgini_file, $func_name, $mod_file) . '<br>' . replaceIndex() . createDashboardViews();
 
 #######################################
 
@@ -68,7 +68,46 @@ function replaceIndex()
 	$putfile = str_replace('home.php', 'appginilte_dashboard.php', $getfile);
 
 	//write the entire file
-	if(!@file_put_contents($index_file, $putfile)) return "Couldn't overwrite Index file.";
+	if (!@file_put_contents($index_file, $putfile)) return "Couldn't overwrite Index file.";
 
 	return 'Index file overwritten successfully.';
+}
+
+function createDashboardViews()
+{
+	global $hooks_dir;
+	$abovehomelinks_content='';
+	$belowhomelinks_content='';
+	$groups = sql("SELECT `name` FROM membership_groups",$eo);
+	foreach ($groups as $grp => $data) {
+		$gn = str_replace(" ", "_", $data['name']);
+		$viewpage_Top = "{$hooks_dir}/views/" . $gn . "_Top.php";
+		$viewpage_Bottom = "{$hooks_dir}/views/" . $gn . "_Bottom.php";
+		if (!file_exists($viewpage_Top) || !file_exists($viewpage_Bottom)) {
+			$contents = "\n".'
+			<div class="row">
+			<div class="col-md-12">
+			
+			</div>
+			</div>'."\n";
+			// initialize content for this file
+			file_put_contents($viewpage_Top, '<!--Write your '.$data['name'].' group specific dashboard content and logic in here, this could be charts,cards widgets,tables and everything in between. This content will be shown above home links/cards on the dashboard-->'.$contents); // Save our content to the file.
+			file_put_contents($viewpage_Bottom, '<!--Write your '.$data['name'].' group specific dashboard content and logic in here, this could be charts,cards widgets,tables and everything in between.This content will be shown below home links/cards on the dashboard-->'.$contents); // Save our content to the file.
+			echo "<br> appginilte/" . $viewpage_Top . " Created Successfully <br>";
+			echo "<br> appginilte/" . $viewpage_Bottom . " Created Successfully <br>";
+		}
+		$abovehomelinks_content.="\n".'if ($group=="'.$gn.'") {
+			include "views/'.$gn.'_Top.php";
+			}'."\n";
+		$belowhomelinks_content.="\n".'if ($group=="'.$gn.'") {
+			include "views/'.$gn.'_Bottom.php";
+		}'."\n";
+	}
+	$abovehomelinks="{$hooks_dir}/above_homelinks.php";
+	$belowhomelinks="{$hooks_dir}/below_homelinks.php";
+
+	if (!@file_put_contents($abovehomelinks, "<?php ".$abovehomelinks_content." ?>")) return "Couldn't overwrite Index file.";
+	if (!@file_put_contents($belowhomelinks, "<?php ".$belowhomelinks_content." ?>")) return "Couldn't overwrite Index file.";
+
+	return '<br> Above/Below home page files created success';
 }
