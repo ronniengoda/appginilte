@@ -1,6 +1,7 @@
 # AppginiLTE Dasboard UI Plugin
 
-![Homepage]([https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6PSZYJSQJSCOTF774YVJ2WZQ "Homepage")
+
+[![HomePage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
 
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
@@ -11,11 +12,11 @@ It gives your Appgini generated applications a better look and feel built on top
 If your application is hosted on an online server simply hit your application url for example: **https://superapp.com/appginilte_install.php**
 **NB: You must be logged in as an admin to be able to install this plugin.**
 - Once you have successfully installed you will now have your appgini application updated and presented with our new dashbaord UI .
-[![InstallSuccess](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png"InstallSuccess")](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png"InstallSuccess")
+[![InstallSuccess](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png)
 
 # Customizations And Usage
 
-[![Customization](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7E6CBUV4NJHVTEYPGYVJ3FMQ "Customization")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7E6CBUV4NJHVTEYPGYVJ3FMQ "Customization")
+[![Customization](https://payherokenya.com/appginilte/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png)
 
 Now that you have successfully installed the AppginiLTE plugin, you can proceeed to make some customizations on how elements like table cards on the home page, table groups and menus appear.
 On the top far right menu, you will see a user icon, Click on it then select AppginiLTE Settings.
@@ -35,18 +36,18 @@ For code and further elements regarding this template you can simply reffer to o
 # Screenshots And Demo
 
 Find below screenshots  of the AppginiLTE UI plugin applied to the Northwind application. You can also login to experience it yourself [ **HERE**](https://payherokenya.com/northwind " HERE") **Username:** demo **Password:** 1234567890
-[![Homepage](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7YTKS5MD6ALPAPPT6YVJ3YMA "Homepage")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7YTKS5MD6ALPAPPT6YVJ3YMA "Homepage")
+[![Homepage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
 
 ------------
 
-[![Detailview](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20042%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6E3LQWN66YEXIG3FAYVJ3Y7Q "Detailview")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20042%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6E3LQWN66YEXIG3FAYVJ3Y7Q "Detailview")
+[![Detailview](https://payherokenya.com/appginilte/FireShot%20Capture%20042%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20042%20-%20Northwind%20-%20localhost.png)
 
 ------------
 
-[![Addnew](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20043%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7EERS6XCMQYR6LK72YVJ3ZSA "Addnew")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20043%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7EERS6XCMQYR6LK72YVJ3ZSA "Addnew")
+[![Addnew](https://payherokenya.com/appginilte/FireShot%20Capture%20043%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20043%20-%20Northwind%20-%20localhost.png)
 
 ------------
 
-[![CustmizeSettings](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20044%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT644ETCQQIP4JI42VSYVJ32KQ "CustmizeSettings")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20044%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT644ETCQQIP4JI42VSYVJ32KQ "CustmizeSettings")
+[![CustmizeSettings](https://payherokenya.com/appginilte/FireShot%20Capture%20044%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20044%20-%20Northwind%20-%20localhost.png)
 
 ------------
