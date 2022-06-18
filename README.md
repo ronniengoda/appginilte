@@ -1,6 +1,6 @@
 # AppginiLTE Dasboard UI Plugin
 
-![Homepage](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6PSZYJSQJSCOTF774YVJ2WZQ "Homepage")
+![Homepage]([https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT6PSZYJSQJSCOTF774YVJ2WZQ "Homepage")
 
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
@@ -11,7 +11,7 @@ It gives your Appgini generated applications a better look and feel built on top
 If your application is hosted on an online server simply hit your application url for example: **https://superapp.com/appginilte_install.php**
 **NB: You must be logged in as an admin to be able to install this plugin.**
 - Once you have successfully installed you will now have your appgini application updated and presented with our new dashbaord UI .
-[![InstallSuccess](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7F3VKOEWRJIZYW3VWYVJ3CDA "InstallSuccess")](https://raw.githubusercontent.com/ronniengoda/appginilte/master/appginilte/screenshots/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png?token=GHSAT0AAAAAABUC5FT7F3VKOEWRJIZYW3VWYVJ3CDA "InstallSuccess")
+[![InstallSuccess](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png"InstallSuccess")](https://payherokenya.com/appginilte/FireShot%20Capture%20046%20-%20Northwind%20-%20localhost.png"InstallSuccess")
 
 # Customizations And Usage
 
