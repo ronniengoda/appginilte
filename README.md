@@ -2,7 +2,11 @@
 
 
 [![HomePage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
+# Donate To Keep Getting Updates
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=LK3UXEMV785XA)
+
+## Introduction
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
 
