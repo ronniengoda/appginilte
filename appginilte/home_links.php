@@ -4,15 +4,16 @@ include 'groups_config_lte.php';
 
 $groups = get_table_groups();
 $i=0;
+$ngtlink = '';
 foreach ($groups as $grp => $tables) {
     # code...
     $tlink = '';
-    if ($grp !== "None") {
+    $gn = str_replace(" ", "_", $grp);
+    $group_hpd=$cjson[$gn . '_hpd'] ? $cjson[$gn . '_hpd'] : 'default';
+    if ($grp !== "None" && $group_hpd !== "notgrouped") {
         // code...
         $i++;
         $collapse=($i==1)?'':'collapsed-card';
-        $gn = str_replace(" ", "_", $grp);
-        $group_hpd=$cjson[$gn . '_hpd'] ? $cjson[$gn . '_hpd'] : 'default';
         $group_cc=$cjson[$gn . '_cc'] ? $cjson[$gn . '_cc'] : 'primary';
         if($group_hpd=="default"){
             $linkstop = '<h5 class="mb-2 mt-4">' . $grp . '</h5>
@@ -96,7 +97,7 @@ foreach ($groups as $grp => $tables) {
             $show_icon = ($card_icon == 'default') ? '<i> <img src="' . $tableIcon . '"></i>' : '<i class="' . $card_fa . '"></i>';
             /* hide current card in homepage? */
             if (strpos($card_hidden, $group) === false) {
-                $tlink .= ' <div class="col-lg-3 col-6">
+                $ngtlink .= ' <div class="col-lg-3 col-6">
             <!-- small card -->
             <div class="small-box bg-' . $card_color . '">
                 <div class="inner">
@@ -114,6 +115,9 @@ foreach ($groups as $grp => $tables) {
         </div>';
             }
         }
-        echo '<div class="row">' . $tlink . '</div>';
     }
 }
+//Dispaly non grouped table cards
+if (!empty($ngtlink)) {
+    echo '<div class="container-fluid"><div class="row">' . $ngtlink . '</div></div>';
+  }

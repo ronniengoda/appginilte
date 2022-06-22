@@ -83,6 +83,7 @@ if ($group !== "Admins") {
                                         <select id="' . $gn . '_hpd" name="' . $gn . '_hpd" class="form-control">
                                         <option value="default" ' . ($group_hpd == "default" ? 'selected' : '') . '>Default</option>
                                         <option value="collapsible" ' . ($group_hpd == "collapsible" ? 'selected' : '') . '>Collapsible Card</option>
+                                        <option value="notgrouped" ' . ($group_hpd == "notgrouped" ? 'selected' : '') . '>Not Grouped</option>
                                         </select>
                                         </div>
                                         <div class="col-lg-4 col-sm-12">
