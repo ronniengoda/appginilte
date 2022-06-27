@@ -17,6 +17,8 @@
 <script src="appginilte/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="appginilte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="appginilte/plugins/chart.js/Chart.min.js"></script>
 <!-- AdminLTE App -->
 <script src="appginilte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
