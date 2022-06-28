@@ -7,6 +7,13 @@ include("lib.php");
 include 'appginilte_header.php';
 $page = $_REQUEST['page'];
 $page_title = substr($page, 0, strpos($page, ".php"));
+if (strpos($page_title, "_view")) {
+    # code...
+    $rtrim_page_title = preg_replace('/_view$/', '', $page_title);
+    $json = json_encode(get_tables_info(true));
+    $decode = json_decode($json,true);
+   $page_title = $decode[$rtrim_page_title]['Caption'];
+}
 ?>
 
 <!-- Content Wrapper. Contains page content -->
