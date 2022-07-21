@@ -12,7 +12,9 @@
 ## Introduction: AppginiLTE Lite
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
-
+#
+[APPGINI FORUM TOPIC THREAD](https://link.co.ke/5jtxp8j/)
+#
 # Installation
 - Downlaod the AppginiLTE plugin zip file and extract it inside your appgini generated application folder
 - To install the AppginiLTE UI simply hit the following file: **appginilte_install.php** , so if your project folder for example is: *superapp* and is on localhost simply hit **localhost/superapp/appginilte_install.php** 
