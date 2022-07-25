@@ -4,7 +4,7 @@
 [![HomePage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
 # Check Out The Pro Version, With added features, functionality and customizations
 
-[CHECKOUT THE PRO VERSION](https://portals.docsie.io/ronthedev/ronthedev-docs/ronthedev-docs-platinum/appginilte-pro/deployment_9gnlh6Jl5RYLgSnjV/)
+[CHECKOUT THE PRO VERSION DOCUMENTATION](https://portals.docsie.io/ronthedev/ronthedev-docs/ronthedev-docs-platinum/appginilte-pro/deployment_9gnlh6Jl5RYLgSnjV/)
 #
 ## Donate!
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=LK3UXEMV785XA)
@@ -13,7 +13,7 @@
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
 #
-[APPGINI FORUM TOPIC THREAD](https://link.co.ke/5jtxp8j/)
+[APPGINI FORUM TOPIC THREAD](https://forums.appgini.com/phpbb/viewtopic.php?f=12&t=4792/)
 #
 # Installation
 - Downlaod the AppginiLTE plugin zip file and extract it inside your appgini generated application folder
