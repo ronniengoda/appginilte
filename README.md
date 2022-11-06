@@ -1,4 +1,4 @@
-# AppginiLTE Dasboard UI Plugin
+# AdminLTE Dasboard UI Plugin For Appgini
 
 
 [![HomePage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
@@ -9,14 +9,14 @@
 ## Donate!
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=LK3UXEMV785XA)
 
-## Introduction: AppginiLTE Lite
+## Introduction: AdminLTE Dasboard UI Plugin For Appgini
 This is an **easy to use and install** admin dashboard UI for Appgini generated applications.
 It gives your Appgini generated applications a better look and feel built on top of [AdminLTE Bootstrap Admin Dashboard Template](https://adminlte.io "AdminLTE Bootstrap Admin Dashboard Template") 
 #
 [APPGINI FORUM TOPIC THREAD](https://forums.appgini.com/phpbb/viewtopic.php?f=12&t=4792/)
 #
 # Installation
-- Downlaod the AppginiLTE plugin zip file and extract it inside your appgini generated application folder
+- Downlaod the AdminLTE Dasboard UI Plugin For Appgini zip file and extract it inside your appgini generated application folder
 - To install the AppginiLTE UI simply hit the following file: **appginilte_install.php** , so if your project folder for example is: *superapp* and is on localhost simply hit **localhost/superapp/appginilte_install.php** 
 If your application is hosted on an online server simply hit your application url for example: **https://superapp.com/appginilte_install.php**
 **NB: You must be logged in as an admin to be able to install this plugin.**
@@ -27,7 +27,7 @@ If your application is hosted on an online server simply hit your application ur
 
 [![Customization](https://payherokenya.com/appginilte/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20045%20-%20Northwind%20-%20localhost.png)
 
-Now that you have successfully installed the AppginiLTE plugin, you can proceeed to make some customizations on how elements like table cards on the home page, table groups and menus appear.
+Now that you have successfully installed the AdminLTE Dasboard UI Plugin For Appgini, you can proceeed to make some customizations on how elements like table cards on the home page, table groups and menus appear.
 On the top far right menu, you will see a user icon, Click on it then select AppginiLTE Settings.
 From the settings page you will get simple but straight foward instructions on how to make the customizations then save your changes.
 
@@ -44,7 +44,7 @@ For code and further elements regarding this template you can simply reffer to o
 
 # Screenshots And Demo
 
-Find below screenshots  of the AppginiLTE UI plugin applied to the Northwind application. You can also login to experience it yourself [ **HERE**](https://payherokenya.com/northwind " HERE") **Username:** demo **Password:** 1234567890
+Find below screenshots  of the AdminLTE Dasboard UI Plugin For Appgini applied to the Northwind application. You can also login to experience it yourself [ **HERE**](https://payherokenya.com/northwind " HERE") **Username:** demo **Password:** 1234567890
 [![Homepage](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)](https://payherokenya.com/appginilte/FireShot%20Capture%20041%20-%20Northwind%20-%20Homepage%20-%20localhost.png)
 
 ------------
